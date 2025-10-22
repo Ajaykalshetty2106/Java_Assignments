@@ -10,7 +10,6 @@ public class loop {
         continue;
         System.out.println(i);
     }
-    System.out.println();
+    }
+}
 
-}
-}
