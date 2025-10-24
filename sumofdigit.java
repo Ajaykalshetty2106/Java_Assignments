@@ -4,14 +4,18 @@ public class sumofdigit {
     public static void main(String[] args) {
         
     
-    int num = 0;
+    int num = 1234;
+        int sum = 0;
    
-    for(int i=1;i<=4;i++)
+    while (number != 0) 
     {
-        num=num+i;
+            int digit = num % 10; 
+            sum = sum + digit;       
+            num = num / 10;
     }
-    System.out.println("Sum of numbers = " + num);
+    System.out.println("Sum of numbers = " + sum);
 }
 
 
 }
+
